@@ -1,0 +1,26 @@
+:root {
+  --cor-1: #ffffff;
+  --cor-2: #000000;
+  --cor-3: #2E331B;
+  --cor-4: #66695c3f;
+  --cor-5: #a3ab85;
+  --cor-6: #666b52;
+  --cor-7: #f1cd43;
+}
+
+/* PESQUISAR CORES NO ADOBE COLOR EM TONS DE MARROM E O LARANJA PARA O CONTRASTE
+AMARELO E CINZA*/
+.cor-1 {
+  color: var(--cor-1);
+}
+.cor-2 {
+  color: var(--cor-2);
+}
+
+.cor-3 {
+  color: var(--cor-3);
+}
+
+.cor-4 {
+  color: var(--cor-4);
+}
