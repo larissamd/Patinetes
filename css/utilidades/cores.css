@@ -1,46 +1,12 @@
 :root {
-  --cor-1: #ffffff;
-  --cor-2: #000000;
-  --cor-3: #2E331B;
-  --cor-4: #686b5f3f;
-  --cor-5: #a3ab85;
-  --cor-6: #7c854f;
-  --cor-7: #f1cd43;
-  --cor-8: #e9faccc2;
-
-  --cor-1a: #ffffff;
-  --cor-2a: #000000;
-  --cor-3a: #FFAE00;
-  --cor-4a: #634A00;
-  --cor-5a: #383416;
-  --cor-6a: #0C7D74;
-  --cor-7a: #0F353D;
-
-  --cor-1b: #ffffff;
-  --cor-2b: #000000;
-  --cor-3b: #BD2A2E;
-  --cor-4b: #3B3936;
-  --cor-5b: #B2BEBF;
-  --cor-6b: #889C9B;
-  --cor-7b: #486966;
-
-  --cor-1c: #ffffff;
+  --cor-1c: #f6faed;
   --cor-2c: #000000;
   --cor-3c: #2651A6;
   --cor-4c: #195973;
   --cor-5c: #477332;
-  --cor-6c: #2F4024;
+  --cor-6c: #2f402467;
   --cor-7c: #C1D98F;
-
-  --cor-3d: #88BF50;
-  --cor-4d: #76A646;
-  --cor-5d: #DFF2B6;
-  --cor-6d: #EAF2CE;
-  --cor-7d: #0D0D0D;
-  
-
 }
-
 /* PESQUISAR CORES NO ADOBE COLOR EM TONS DE MARROM E O LARANJA PARA O CONTRASTE
 AMARELO E CINZA*/
 .cor-1 {

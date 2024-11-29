@@ -7,20 +7,60 @@ a {
   color: inherit;
 }
 
-body {
-  margin: 0px;
-}
-
-ul {
-  padding: 0px;
+* {
+ margin: 0px;
+ padding: 0px;
 }
 
 body {
-  background-color: var(--cor-6d);
+  background-color: var(--cor-1c);
+  height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+ul,
+li,
+p,
+dd{
+  margin: 0%;
+}
+
+h2 {
+  font-weight: 600
 }
 
 img {
   max-width: 100%;
   height: auto;
   display: block;
+}
+
+.footer-bg {
+  background-color: var(--cor-5c);
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-lojas ul {
+  padding-left: 0px;
+}
+
+.footer { 
+  display: grid;
+  gap: 30px;
+  grid-template-columns: 1fr 1fr 1fr;
+  box-sizing: border-box;
+  padding-top: 30px;
+}
+
+.logo-footer {
+  height: 39px;
+  width: 137px;
+}
+
+.footer-copy {
+  margin-bottom: 20px
 }
