@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  background-color: var(--cor-1c);
+  background-color: var(--cor-3);
   margin: 0px;
   padding: 0px;
   display: flex;
@@ -29,10 +29,7 @@ li,
 p,
 dd{
   margin: 0%;
-}
-
-h1 {
-  letter-spacing: 0rem;
+  padding: 0%;
 }
 
 img {

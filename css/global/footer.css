@@ -1,5 +1,5 @@
 .footer-bg {
-    background-color: var(--cor-5c);
+    background-color: var(--cor-4);
     width: 100%;
     margin-top: auto;
 }
@@ -15,17 +15,19 @@
 .footer li {
     margin-bottom: 1rem;
 }
+
+.footer li:last-child {
+    margin-bottom: 0px;
+}
   
 .logo-footer {
     height: 39px;
     width: 137px;
 }
-  
-.footer-lojas ul {
-    padding-left: 0px;
-}
-  
+
 .footer-copy {
-    margin-top: 10px;
+    margin-bottom: 20px;
 }
+  
+
   
