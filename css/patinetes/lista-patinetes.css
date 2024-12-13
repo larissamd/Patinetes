@@ -1,11 +1,24 @@
 .lista-patinetes {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 30px;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 50px;
     padding: 30px 0px 30px 0px;
 }
 
 .patinetes-bg {
+    background: linear-gradient(to right, var(--cor-3) 40%, var(--cor-2) 0%);
+    margin-top: 30px;
+}
+
+.patinetes-bg2, .patinetes-bg3 { 
     background-color: var(--cor-2);
     margin-top: 30px;
+}
+
+.urbano-img {
+    background-color: var(--cor-3);
+}
+
+.detalhes {
+    text-align: right;
 }
