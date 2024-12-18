@@ -12,13 +12,30 @@
   grid-template-columns: 1fr 1fr;
   gap: 0px 40px;
   justify-self: center;
+  margin-top: 40px;
+  
 }
 
 .inicio-titulo {
-  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
-.inicio-texto {
-  margin-top: 40px;
+@media (max-width: 800px) {
+  .inicio{
+    grid-template-columns: 1fr;
+  
+  }
+  .inicio-titulo h1 {
+    font-size: 2.5rem;
+  }
+  .inicio-titulo {
+    margin-bottom: 20px;
+  }
 }
 
+@media (max-width: 500px) {
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}

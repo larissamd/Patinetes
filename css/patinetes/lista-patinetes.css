@@ -19,6 +19,8 @@
     background-color: var(--cor-3);
 }
 
-.detalhes {
-    text-align: right;
+@media (max-width: 800px) {
+    .lista-patinetes {
+        grid-template-columns: 1fr;
+    }
 }
