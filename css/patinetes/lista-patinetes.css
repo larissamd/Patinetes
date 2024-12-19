@@ -15,12 +15,14 @@
     margin-top: 30px;
 }
 
-.urbano-img {
-    background-color: var(--cor-3);
-}
-
-@media (max-width: 800px) {
-    .lista-patinetes {
-        grid-template-columns: 1fr;
+@media (max-width: 600px){
+    .patinetes-bg {
+        background: none;
     }
 }
+
+@media (max-width: 600px) {
+    .container {
+      display: block;
+    }
+  }
