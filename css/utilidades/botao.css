@@ -1,10 +1,12 @@
 .botao {
     background-image: linear-gradient(to bottom right, #f84c21bd, #ffc62bb9);
     /*background-color: var(--cor-8);*/
-    /*justify-content: center;*/
-    padding: 15px;
-    grid-column: 3;
-    text-align: center;
-    
-
+    padding: 5px 20px;
+    justify-self: center;
+    border-radius: 4px;
+    max-width: max-content;
+}
+.inicio-titulo .botao{
+    justify-self: right;
+  
 }

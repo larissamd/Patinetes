@@ -7,7 +7,10 @@
   font: 500 1rem/1.5 "Work Sans", sans-serif;
 } 
 .font-w-b {
-  font: 600 1.5rem/1.5 "Work Sans", sans-serif;;
+  font: 600 1.5rem/1.5 "Work Sans", sans-serif;
+}
+.font-w {
+  font: 400 1.25rem/1.5 "Work Sans", sans-serif;
 }
 .font-w-m {
   font: 500 1.125rem/1.7 "Work Sans", sans-serif;
