@@ -1,46 +1,97 @@
 .lista-patinetes {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-columns: 1fr  1fr 1fr 1fr ; 
     gap: 30px;
     padding: 30px 0px 30px 0px;
 }
+/*  sim  - teste */
 
-/*.patinetes-bg {
-    background: linear-gradient(to right, var(--cor-3) 30%, var(--cor-2) 0%);
-    margin-top: 30px;
-}*/
+.urbano-div, .foton-div{
+    grid-column: 2;
+    display: grid;
+    background: linear-gradient(to left, var(--cor-3) 10%, var(--cor-2) 100%);
+    padding: 20px;
+    border-radius: 4px;
+    display: grid;
+    max-height: max-content ;
+    
+}
+.teste-pat {
+    grid-template-columns: 1fr  1fr;
+    display: grid;
+    gap: 30px;
+}
+
+.teste1, 
+.teste2 {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* @media (max-width: 1000px){
+
+
+}
+
+
+/* nao - modificar */
+
 .urbano,
 .foton{
     background: linear-gradient(to left, var(--cor-3) 10%, var(--cor-2) 100%);
-    padding: 20px 0px 0px 20px;
+    padding: 20px;
     border-radius: 4px;
+    display: grid;
+    max-height: max-content ;
 }
-.urbano-dobravel{
-    width: 275px;
-    justify-self: flex-end;
-}
+
+.urbano-dobravel, 
 .foton-img{
-    width: 300px;
-    justify-self: flex-end;
+    max-width: 275px;
+    justify-self: end;
 }
+
+.urbano-lista li,
+.foton-lista li{
+    padding-bottom: 7px;
+}
+
 .patinetes-bg2, .patinetes-bg3 { 
     background-color: var(--cor-2);
     margin-top: 30px;
     grid-template-columns: 1fr 1fr;
 }
 
+@media (max-width: 1100px) {
+    .urbano-titulo {
+      font: 600 2rem/1.5 "Work Sans", sans-seri
+  }
+    /* .inicio-h1{
+    font-size: 2.6rem;
+    padding-bottom: 20px;
+    }
+    .inicio-bg {
+      margin-bottom: 30px;
+    }
+    .inicio {
+      align-items: center;
+    } */
+  }
+@media (max-width: 900px){
+    .lista-patinetes{
+        gap: 15px;
+    }
+}
 
-@media (max-width: 920px){
+@media (max-width: 700px){
     .lista-patinetes {
         grid-template-columns: 1fr 1fr;
     }
     .urbano-texto {
         grid-column: 2;
     }
-    .urbano-titulo {
-        max-width: min-content;
-        background: rgb(129, 57, 57);
-    }
+   
     .patinetes-bg {
         background: linear-gradient(to right, var(--cor-3) 30%, var(--cor-2) 50%);
     }
@@ -55,4 +106,4 @@
     .patinetes-bg {
         background: none;
    }
-}
+} 
