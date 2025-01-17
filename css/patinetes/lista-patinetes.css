@@ -1,55 +1,28 @@
 .lista-patinetes {
     display: grid;
-    grid-template-columns: 1fr  1fr 1fr 1fr ; 
-    gap: 30px;
-    padding: 30px 0px 30px 0px;
+    grid-template-columns: 1fr  1fr 1fr 1fr; 
+    gap: 20px;
+    padding: 20px 0px 20px 0px;
 }
-/*  sim  - teste */
-
-.urbano-div, .foton-div{
-    grid-column: 2;
-    display: grid;
-    background: linear-gradient(to left, var(--cor-3) 10%, var(--cor-2) 100%);
-    padding: 20px;
-    border-radius: 4px;
-    display: grid;
-    max-height: max-content ;
-    
-}
-.teste-pat {
-    grid-template-columns: 1fr  1fr;
-    display: grid;
-    gap: 30px;
-}
-
-.teste1, 
-.teste2 {
-    display: grid;
-    gap: 30px;
-    grid-template-columns: 1fr 1fr;
-}
-
-/* @media (max-width: 1000px){
-
-
-}
-
 
 /* nao - modificar */
 
 .urbano,
 .foton{
     background: linear-gradient(to left, var(--cor-3) 10%, var(--cor-2) 100%);
-    padding: 20px;
+    padding: 10px;
     border-radius: 4px;
     display: grid;
-    max-height: max-content ;
+    
 }
 
 .urbano-dobravel, 
 .foton-img{
     max-width: 275px;
     justify-self: end;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
 }
 
 .urbano-lista li,
@@ -65,24 +38,10 @@
 
 @media (max-width: 1100px) {
     .urbano-titulo {
-      font: 600 2rem/1.5 "Work Sans", sans-seri
-  }
-    /* .inicio-h1{
-    font-size: 2.6rem;
-    padding-bottom: 20px;
-    }
-    .inicio-bg {
-      margin-bottom: 30px;
-    }
-    .inicio {
-      align-items: center;
-    } */
-  }
-@media (max-width: 900px){
-    .lista-patinetes{
-        gap: 15px;
-    }
+      font: 600 2rem/1.5 "Work Sans", sans-serif;
+  } 
 }
+
 
 @media (max-width: 700px){
     .lista-patinetes {
@@ -91,19 +50,12 @@
     .urbano-texto {
         grid-column: 2;
     }
+    .urbano-dobravel, 
+    .foton-img {
+        justify-self: center;
+    }
    
     .patinetes-bg {
-        background: linear-gradient(to right, var(--cor-3) 30%, var(--cor-2) 50%);
+        background: none;
     }
 }
-
-@media (max-width: 600px) {
-    .container {
-      flex-direction: column;
-      align-items: start;
-      justify-content: center;
-    }
-    .patinetes-bg {
-        background: none;
-   }
-} 

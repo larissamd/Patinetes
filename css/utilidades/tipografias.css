@@ -6,24 +6,26 @@
 .font-w-p {
   font: 500 1rem/1.5 "Work Sans", sans-serif;
 } 
-.font-w-b {
-  font: 600 1.5rem/1.5 "Work Sans", sans-serif;
-}
 .font-w {
   font: 400 1.25rem/1.5 "Work Sans", sans-serif;
 }
 .font-w-m {
   font: 500 1.125rem/1.7 "Work Sans", sans-serif;
 }
-.font-w-xg {
-  font: 600 3.75rem/1.125 "Work Sans";
+.font-w-b {
+  font: 600 1.5rem/1.5 "Work Sans", sans-serif;
 }
-
 .font-w-g {
-  font: 600 2.75rem/1.125 "Work Sans";}
-
-.grande {
-  padding: 300px;
+  font: 600 2.75rem/1.125 "Work Sans", sans-serif;
 }
+.font-w-xg {
+  font: 600 3.75rem/1.125 "Work Sans", sans-serif;
+}
+
+.font-play-m {
+  font: 500 2rem/1.5 "Playwrite AU SA"
+}
+
+
 
 

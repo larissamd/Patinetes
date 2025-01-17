@@ -8,3 +8,9 @@
     justify-self: right;
     text-transform: uppercase;
 }
+
+@media screen and (min-width: 701px) and (max-width: 900px){
+    .botao {
+        padding: 2px 8px;     
+}
+}
