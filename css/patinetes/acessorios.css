@@ -1,0 +1,30 @@
+.acessorios-bg {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.acessorios-bg h2 {
+    padding-bottom: 50px;
+}
+
+.acessorios-bg ul{
+    display: flex;
+    gap: 20px;
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x: auto;
+}
+
+.acessorios-bg li {
+    min-width: 280px;
+    flex: 1;
+}
+
+.acessorios-bg p {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.acessorios-bg img {
+    height: 275px;
+}

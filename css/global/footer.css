@@ -8,8 +8,8 @@
     display: grid;
     gap: 30px;
     grid-template-columns: 1fr 1fr 1fr;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
   
 .footer li {
@@ -27,6 +27,18 @@
 
 .footer-copy {
     margin-bottom: 20px;
+}
+
+@media(max-width: 900px){
+    .footer {
+    gap: 15px;
+    }
+}
+
+@media(max-width: 700px){
+    .footer {
+    grid-template-columns: 1fr;
+    }
 }
 
 
