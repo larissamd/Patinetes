@@ -28,3 +28,12 @@
 .acessorios-bg img {
     height: 275px;
 }
+
+
+@media (max-width: 900px) {
+    .acessorios-bg h2{
+      font-size: 2.2rem;
+      padding-bottom: 25px;
+      gap: 0px;
+    }
+  }  

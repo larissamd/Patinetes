@@ -3,14 +3,15 @@
     /*background-color: var(--cor-8);*/
     padding: 4px 20px;
     border-radius: 4px;
-    max-width: max-content;
+    
     align-self: end;
     justify-self: right;
     text-transform: uppercase;
 }
 
-@media screen and (min-width: 701px) and (max-width: 900px){
+@media (max-width: 900px){
     .botao {
-        padding: 2px 8px;     
+        padding: 2px 8px; 
+        min-width: max-content;    
 }
 }
