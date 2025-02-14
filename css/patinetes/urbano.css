@@ -1,0 +1,18 @@
+.patinetes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    align-items: start;
+    gap: 40px;
+}
+
+.patinetes-bg {
+    background: linear-gradient(to left, var(--cor-3) 30%, var(--cor-1) 0%);
+    margin-top: 30px;
+}
+
+.urbano-img{
+
+}
+  
