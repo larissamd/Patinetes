@@ -5,6 +5,7 @@
 @import "./global/footer.css";
 @import "./global/global.css";
 @import "./global/header.css";
+@import "./global/titulos.css";
 
 @import "./pg-principal/depoimento.css";
 @import "./pg-principal/inicio.css";
