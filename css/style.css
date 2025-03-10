@@ -1,14 +1,18 @@
-@import "./utilidades/botao.css";
-@import "./utilidades/cores.css";
-@import "./utilidades/tipografias.css";
+@import "./contato/formulario.css";
 
 @import "./global/footer.css";
 @import "./global/global.css";
 @import "./global/header.css";
 @import "./global/titulos.css";
 
+@import "./patinetes/urbano.css";
+
 @import "./pg-principal/depoimento.css";
 @import "./pg-principal/inicio.css";
 @import "./pg-principal/lista-acessorios.css";
 @import "./pg-principal/lista-patinetes.css";
-@import "./patinetes/urbano.css";
+
+
+@import "./utilidades/botao.css";
+@import "./utilidades/cores.css";
+@import "./utilidades/tipografias.css";

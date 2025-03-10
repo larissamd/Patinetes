@@ -1,7 +1,7 @@
 .depoimento-bg {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background-image: linear-gradient(to bottom right, #f84c21bd, #ffc62bb9);
+    background-image: linear-gradient(to bottom right, var(--cor-5), var(--cor-6));
     text-align: center;
 }
 .depoimento-bg img {

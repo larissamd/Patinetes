@@ -1,16 +1,16 @@
 .botao {
-    background-image: linear-gradient(to bottom right, #f84c21bd, #ffc62bb9);
+    background-image: linear-gradient(to bottom right, var(--cor-5), var(--cor-6));
     /*background-color: var(--cor-8);*/
     padding: 4px 20px;
     border-radius: 4px;
     align-self: end;
     justify-self: right;
     text-transform: uppercase;
+    min-width: max-content; 
 }
 
 @media (max-width: 900px){
     .botao {
-        padding: 2px 8px; 
-        min-width: max-content;    
+        padding: 2px 8px;   
 }
 }

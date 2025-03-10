@@ -30,78 +30,53 @@
     </div>
 </header>
 
-<body>
-    <main class="titulo-bg">
-        <div class="container inicio">
-            <div class="inicio-titulo">
-                <h1 class="font-w-xg">
-                    Contato
-                </h1>
-            </div>   
+<body id="contato">
+    <main>
+        <div class="container">
+            <div class="titulo">
+                <h1 class="font-w-xg">Contato</h1>
+            </div>
         </div>
 
-        <section class="">
-            <form action=""></form>
-        </section>
+        <div>
+            <section class="formulario" aria-label="Formulário">
+                <form class="form font-w-p" action="./contato.html" method="POST" data-form>
+                    <div>
+                        <label for="nome">Nome</label>
+                        <input type="text" id="nome" name="nome" placeholder="Como você se chama?">
+                    </div>
+        
+                    <div>
+                        <label for="telefone">Telefone</label>
+                        <input type="text" id="telefone" name="telefone" placeholder="(21) 99999-9999">
+                    </div>
+        
+                    <div class="col-2">
+                        <label for="email">E-mail</label>
+                        <input type="text" id="email" name="email" placeholder="patnet@hotmail.com">
+                    </div>
+        
+                    <div class="col-2">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea id="mensagm" name="mensagem"></textarea>
+                        <button class="botao font-w-m" type="submit" data-button>Enviar</button>
+                    </div>
+                </form>
+            </section>
+        </div>
     </main>
-
-    <article class="patinetes-bg">
-        <div class="container lista-patinetes">
-            <div>
-                <p class="font-w-m cor-4">O PatNet permite melhores condições de vida e também é de longa duração. Uma das consequências de seu uso é a transformação das cidades graças à redução da poluição ambiental.</p>
-            </div>
-            <div>
-                <p class="font-w-m cor-4">O PatNet permite melhores condições de vida e também é de longa duração. Uma das consequências de seu uso é a transformação das cidades graças à redução da poluição ambiental.</p>
-            </div>
-            <div>
-                <p class="font-w-m cor-4">O PatNet permite melhores condições de vida e também é de longa duração. Uma das consequências de seu uso é a transformação das cidades graças à redução da poluição ambiental.</p>
-            </div>
-            
-         </div>
-    </article>
-
-    
-    <article class="patinetes-bg">
-        <div class="container lista-patinetes">
-            <div>
-                <p class="font-w-m cor-4">O PatNet permite melhores condições de vida e também é de longa duração. Uma das consequências de seu uso é a transformação das cidades graças à redução da poluição ambiental.</p>
-            </div>
-            <div>
-                <p class="font-w-m cor-4">O PatNet permite melhores condições de vida e também é de longa duração. Uma das consequências de seu uso é a transformação das cidades graças à redução da poluição ambiental.</p>
-            </div>
-            <div>
-                <p class="font-w-m cor-4">O PatNet permite melhores condições de vida e também é de longa duração. Uma das consequências de seu uso é a transformação das cidades graças à redução da poluição ambiental.</p>
-            </div>
-            
-         </div>
-    </article>
-    
-    <article class="patinetes-bg">
-        <div class="container lista-patinetes">
-            <div>
-                <p class="font-w-m cor-4">O PatNet permite melhores condições de vida e também é de longa duração. Uma das consequências de seu uso é a transformação das cidades graças à redução da poluição ambiental.</p>
-            </div>
-            <div>
-                <p class="font-w-m cor-4">O PatNet permite melhores condições de vida e também é de longa duração. Uma das consequências de seu uso é a transformação das cidades graças à redução da poluição ambiental.</p>
-            </div>
-            <div>
-                <p class="font-w-m cor-4">O PatNet permite melhores condições de vida e também é de longa duração. Uma das consequências de seu uso é a transformação das cidades graças à redução da poluição ambiental.</p>
-            </div>
-            
-         </div>
-    </article>
+   
     <footer class="footer-bg">
         <div class="footer container">  
-            <a class="logo-footer" href="./">
-                <img src="./img/ptnlogo.png" alt="Patnet"></a>
+            <div class="logo-footer"> 
+                <a href="./">
+                    <img src="./img/ptnlogo.png" alt="Patnet"></a>
+            </div>
             <div class="footer-lojas">
                 <h2 class="font-w-b cor-1">Nossas Lojas</h2>
                 <ul class="font-w-m cor-3">
-                    <li>
-                        <a href="./">Av. das Américas, 3333 - Recreio</a>
-                    </li>
+                    <li>Av. das Américas, 3333 - Recreio</li>
                     <li>Rio de Janeiro - RJ</li>
-
                     <li>Av. Presidente Vargas, 4444 - Centro </li>
                     <li>Rio de Janeiro - RJ</li>
                 </ul>
@@ -110,16 +85,20 @@
                 <h2 class="font-w-b cor-1">Informações</h2>
                 <ul class="font-w-m cor-3">
                     <li>
-                        <a href="./">Patinetes</a>
+                        <a href="./patinetes.html">Patinetes</a>
                     </li>
                     <li> 
-                        <a href="./">Contato</a>
+                        <a href="./acessorios.html">Acessórios</a>
+                    </li>
+                    <li> 
+                        <a href="./contato.html">Contato</a>
                     </li>
                 </ul>
             </div>
             <p class="footer-copy font-w-m cor-3">PatNet © Alguns direitos reservados</p>
         </div>
     </footer>
+
 
     <script src="js/script.js"></script>
 </body>
