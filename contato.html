@@ -32,38 +32,92 @@
 
 <body id="contato">
     <main>
-        <div class="container">
-            <div class="titulo">
+        <div class="titulo">
+            <div class="container">
                 <h1 class="font-w-xg">Contato</h1>
             </div>
         </div>
 
-        <div>
-            <section class="formulario" aria-label="Formulário">
-                <form class="form font-w-p" action="./contato.html" method="POST" data-form>
-                    <div>
-                        <label for="nome">Nome</label>
-                        <input type="text" id="nome" name="nome" placeholder="Como você se chama?">
-                    </div>
+        <section class="formulario" aria-label="Formulário">
+            <form class="form font-w-p" action="./contato.html" method="POST" data-form>
+                <div>
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome" placeholder="Como você se chama?">
+                </div>
         
-                    <div>
-                        <label for="telefone">Telefone</label>
-                        <input type="text" id="telefone" name="telefone" placeholder="(21) 99999-9999">
-                    </div>
+                <div>
+                    <label for="telefone">Telefone</label>
+                    <input type="text" id="telefone" name="telefone" placeholder="(21) 99999-9999">
+                </div>
         
-                    <div class="col-2">
-                        <label for="email">E-mail</label>
-                        <input type="text" id="email" name="email" placeholder="patnet@hotmail.com">
-                    </div>
+                <div class="col-2">
+                    <label for="email">E-mail</label>
+                    <input type="text" id="email" name="email" placeholder="patnet@hotmail.com">
+                </div>
         
-                    <div class="col-2">
-                        <label for="mensagem">Mensagem</label>
-                        <textarea id="mensagm" name="mensagem"></textarea>
-                        <button class="botao font-w-m" type="submit" data-button>Enviar</button>
+                <div class="col-2">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagm" name="mensagem"></textarea>
+                    <button class="botao font-w-m" type="submit" data-button>Enviar</button>
+                </div>
+            </form>
+        </section>
+
+        <article class="container">
+            <h2 class="font-w-xg">Lojas</h2>
+            <div class="mapa">
+                <div class="mapa-loja">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58755.765149771585!2d-43.52291692138117!3d-23.01513036955343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bc2aa587258b1%3A0x94154e3658afd3a!2sRecreio%20dos%20Bandeirantes%2C%20Rio%20de%20Janeiro%20-%20RJ!5e0!3m2!1spt-BR!2sbr!4v1741893377259!5m2!1spt-BR!2sbr" width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                    <div class="mapa-conteudo">
+                        <h3 class="font-w-b">Recreio dos Bandeirantes - RJ</h3>
+                        <div class="mapa-info font-w-p">
+                            <p>Av. das Américas, 3333 </p>
+                            <p>8h às 17h</p>
+                            <p>Segunda à Sábado</p>
+                        </div>
+
+                        <div class="mapa-dados font-w-p">
+                            <ul>
+                                <li>
+                                    <a href="tel:+552199999-9999">(21) 99999-9999</a>
+                                </li>
+                                <li>
+                                    <a href="mailto:rj@patnet.com">rj@patnet.com</a>
+                                </li>
+                            </ul>
+                        </div>
+                        
                     </div>
-                </form>
-            </section>
-        </div>
+                </div>
+                
+
+                <div class="mapa-loja">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58805.57290093147!2d-43.256036407044895!3d-22.90052039667492!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997f5e151c7217%3A0x7ffdf9c2fc30b97d!2sCentro%2C%20Rio%20de%20Janeiro%20-%20RJ!5e0!3m2!1spt-BR!2sbr!4v1741893441301!5m2!1spt-BR!2sbr" width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                    <div class="mapa-conteudo">
+                        <h3 class="font-w-b">Centro - RJ</h3>
+                        <div class="mapa-info font-w-p">
+                            <p>Av. Presidente Vargas, 4444</p>
+                            <p>8h às 17h</p>
+                            <p>Segunda à Sábado</p>
+                        </div>
+
+                        <div class="mapa-dados font-w-p">
+                            <ul>
+                                <li>
+                                    <a href="tel:+552199999-9999">(21) 99999-9999</a>
+                                </li>
+                                <li>
+                                    <a href="mailto:rj@patnet.com">rj@patnet.com</a>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </article>
     </main>
    
     <footer class="footer-bg">

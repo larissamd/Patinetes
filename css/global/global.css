@@ -48,9 +48,10 @@ img {
 }
 
 .titulo {
-  padding-top: 50px;
-  padding-bottom: 50px;
-  background: var(--cor-2);
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: linear-gradient(to bottom, var(--cor-3) 15%, var(--cor-2) 80%);
   max-width: 100%;
   margin: var(--cor-2);
+
 }
