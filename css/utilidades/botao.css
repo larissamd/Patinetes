@@ -7,6 +7,15 @@
     justify-self: right;
     text-transform: uppercase;
     min-width: max-content; 
+    cursor: pointer;
+    transition: 0.3s;
+}
+.botao:hover,
+.botao:focus,
+button:hover,
+button:focus {
+    outline: none;
+    background-image: linear-gradient(to top left, var(--cor-5), var(--cor-6));
 }
 
 @media (max-width: 900px){

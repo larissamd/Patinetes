@@ -1,10 +1,10 @@
-.acessorios-bg {
+/*.acessorios-bg {
     padding-top: 50px;
     padding-bottom: 100px;
 }
 .acessorios-bg h2 {
     padding-bottom: 50px;
-}
+}*/
 
 .acessorios-bg ul{
     display: flex;
@@ -28,12 +28,3 @@
 .acessorios-bg img {
     height: 275px;
 }
-
-
-@media (max-width: 900px) {
-    .acessorios-bg h2{
-      font-size: 2.2rem;
-      padding-bottom: 25px;
-      gap: 0px;
-    }
-  }  
